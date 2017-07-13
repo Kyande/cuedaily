@@ -1,0 +1,36 @@
+Database tables
+
+Users(username, email, password, level, ). 
+Posts. 
+Comments. 
+Tags.(lifestyle, tech, politics, entertainment, programming, experiences )
+Post_tag(pivot table).
+count
+
+Site pages
+
+Home(tag specific posts and all posts).
+Contact(site email.).
+About.brief explanation about the site
+Sign in. 
+Register. 
+Forgot password. 
+User profile(number of posts, day started).
+Dashboard(Admin to view site progress.)
+
+functionality
+
+post a post
+delete a post.
+Edit a post.
+share a post.
+
+approve a post.
+
+comments.
+
+share to social media.
+
+
+sanitize external input
+
