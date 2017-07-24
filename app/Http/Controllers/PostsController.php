@@ -37,11 +37,11 @@ class PostsController extends Controller
     	//validate input.
     	$this->validate(request(),[
     		'title' => 'required',
-    		'body' => 'required',
-            'tags' => 'required'
+    		'post_body' => 'required',
+            // 'tags' => 'required'
     		]);
         //create new Post
-        $user->createNewPost(request('title'), request('body'));
+        $user->createNewPost(request('title'), request('body1'));
 
     	//redirect to home page.
     	return redirect('/home');

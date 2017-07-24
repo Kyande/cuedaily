@@ -6,7 +6,7 @@
 		<form action="/post/create" method="POST">
 			{{ csrf_field() }}
 
-			<div class="col-sm-8">
+			<div class="col-sm-10">
 
 				<h1>Create a new post</h1>
 
@@ -20,18 +20,13 @@
 				</div>
 
 				<div class="form-group">
-					<label for="body">Body:</label>
-					<textarea class="form-control" name="body" id="body" placeholder="Post body" cols="30" rows="15" required></textarea>
-				</div>
+					<label for="body">Post Body:</label>
+					<textarea class="form-control" name="post_body" id="post_body" placeholder="Post body" cols="30" rows="15" required></textarea>
+					<script type="text/javascript">
 
-				<div class="form-group">
-					<label for="tags">Tags:</label>
-					<input class="form-control" type="text" id="tags" name="tags" placeholder="Post tags.." required>
-				</div>
+						CKEDITOR.replace('post_body');
 
-				<div class="form-group">
-					<label for="videoLink">Youtube video link:</label>
-					<input class="form-control" type="url" id="videoLink" name="videoLink" placeholder="Youtube video if available.." >
+					</script>
 				</div>
 
 				<hr>

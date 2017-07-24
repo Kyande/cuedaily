@@ -12,7 +12,9 @@
 		<div class="caption">
 			<p>
 				<div class="storyBody">
-					{{ $post->body }}
+
+					<?= nl2br($post->body); ?>
+
 				</div>
 			</p>
 			<p>
