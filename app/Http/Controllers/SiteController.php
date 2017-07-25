@@ -10,6 +10,7 @@ class SiteController extends Controller
 	public function landing()
 	{
 		//return a view in views/site.
-		return view('site.landing');
+		//return view('site.landing');
+		return redirect('/home');
 	}
 }
