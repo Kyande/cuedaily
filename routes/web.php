@@ -2,6 +2,8 @@
 
 //landing page
 Route::get('/', 'SiteController@landing');
+//about page.
+Route::get('/about', 'SiteController@about');
 
 //post specific routes.
 Route::get('/home', 'PostsController@index')->name('home');//all posts.
