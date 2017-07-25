@@ -41,7 +41,7 @@ class PostsController extends Controller
             // 'tags' => 'required'
     		]);
         //create new Post
-        $user->createNewPost(request('title'), request('body1'));
+        $user->createNewPost(request('title'), request('post_body'));
 
     	//redirect to home page.
     	return redirect('/home');
