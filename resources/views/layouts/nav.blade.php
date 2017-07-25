@@ -29,6 +29,9 @@
                 <li><a href="/login"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp Login</a></li>
             </ul>
             @endif
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="/about">About</a></li>
+            </ul>
             <form class="nav navbar-form navbar-right">
                 <div class="input-group">
                     <input type="text" name="searchBox"class="form-control" placeholder="Search...">

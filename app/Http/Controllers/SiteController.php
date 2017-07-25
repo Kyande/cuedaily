@@ -11,6 +11,13 @@ class SiteController extends Controller
 	{
 		//return a view in views/site.
 		//return view('site.landing');
+		//redirect to home page.
 		return redirect('/home');
+	}
+	//call about page.
+	public function about()
+	{
+		//return a view in views/about.
+		return view('site.about');
 	}
 }
