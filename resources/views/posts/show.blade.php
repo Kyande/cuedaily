@@ -60,9 +60,7 @@
 				<span class="tagStory"><a class="TagLink" href="#">Lifestyle</a></span>
 			</p>
 
-			<?php
-
-				echo nl2br($post->body);
+			<?= nl2br($post->body);
 
 			?>
 
