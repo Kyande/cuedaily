@@ -52,9 +52,10 @@ $('#goToTop').click(function() {      // When arrow is clicked
 });
 //end of scroll to top effect code
 
-
 //Tags input js.
 
-
-
 //end of Tags Input css.
+
+//body input
+CKEDITOR.replace('post_body');
+//end of body Input

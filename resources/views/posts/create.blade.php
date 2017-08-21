@@ -22,13 +22,12 @@
 				<div class="form-group">
 					<label for="body">Post Body:</label>
 					<textarea class="form-control" name="post_body" id="post_body" placeholder="Post body" cols="30" rows="15" required></textarea>
-					<script type="text/javascript">
-
-						CKEDITOR.replace('post_body');
-
-					</script>
 				</div>
 
+				<!-- tags section. -->
+
+				<!-- end of tags section. -->
+					
 				<hr>
 			
 				<div class="form-group">
